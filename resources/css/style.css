@@ -3,6 +3,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.ubuntu {
+  font-family: "Ubuntu";
+}
+
 .hero {
   color: white;
   font-family: 'Yellowtail';
