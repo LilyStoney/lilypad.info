@@ -1,0 +1,105 @@
+body {
+  background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  background-repeat: no-repeat;
+}
+
+.hero {
+  color: white;
+  font-family: 'Yellowtail';
+  text-shadow: 1px 1px 2px black;
+  padding: 30px;
+  }
+
+  .hero h1 {
+    font-size: 75px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+
+.supporting{
+  padding: 30px;
+  color: white;
+}
+
+.supporting h2 {
+  color: white;
+  padding-bottom: 10px;
+  font-family: Calibri;
+}
+
+#header {
+  background-image: url('../images/wood-336589.jpg');
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  }
+
+#futabalily {
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+  position: fixed;
+  border: solid 2px black;
+  width: 350px;
+  height: auto;
+}
+
+.margincenter {
+  margin: 0 auto;
+  position: relative;
+  right: 160px;
+  }
+
+.aligncenter {
+  text-align: center;
+}
+
+.twithover:hover{
+  background-color: white;
+  color: dodgerblue !important;
+  border-radius: 20%;
+}
+
+.contactbox{
+  border: solid 1px white;
+  padding-top: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.spothover:hover{
+  background-color: white;
+  color: green !important;
+  border-radius: 20%;
+}
+
+.CTA:hover {
+  background-color: white;
+  color: black !important;
+  border-radius: 20%;
+}
+
+.supporting {
+  width: 960px;
+    }
+
+.gitlink{
+  color: white;
+}
+
+.twitlink{
+  color: dodgerblue;
+}
+
+.spotlink {
+  color: green;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  background: #111111;
+  color: #f2f2f2;
+}
