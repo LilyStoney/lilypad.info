@@ -38,9 +38,9 @@ body {
 
 #futabalily {
   border-radius: 50%;
+  margin-top: 0 auto;
   background-color: white;
   padding: 10px;
-  position: fixed;
   border: solid 2px black;
   width: 350px;
   height: auto;
@@ -97,9 +97,10 @@ body {
   color: green;
 }
 
-#footer {
+footer {
+  width: 100%;
   padding: 20 30px;
   text-align: center;
   background: #111111;
   color: #f2f2f2;
-}
+  }
