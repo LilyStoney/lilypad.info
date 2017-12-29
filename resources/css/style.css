@@ -1,7 +1,6 @@
 body {
   background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
-  background-repeat: no-repeat;
-}
+  }
 
 .ubuntu {
   font-family: 'Ubuntu';
@@ -30,8 +29,7 @@ body {
 .supporting h2 {
   color: white;
   padding-bottom: 10px;
-  font-family: Calibri;
-}
+  }
 
 #header {
   background-image: url('../images/wood-336589.jpg');
@@ -103,7 +101,7 @@ body {
 
 footer {
   width: 100%;
-  padding: 20 30px;
+  padding: 50px;
   text-align: center;
   background: #111111;
   color: #f2f2f2;
