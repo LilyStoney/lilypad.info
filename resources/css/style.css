@@ -3,7 +3,7 @@ body {
   }
 
 .ubuntu {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .hero {
@@ -28,6 +28,7 @@ body {
 
 .supporting h2 {
   color: white;
+  font-family: 'Ubuntu', sans-serif;
   padding-bottom: 10px;
   }
 
