@@ -37,7 +37,7 @@ body {
   padding-bottom: 20px;
   background-repeat: no-repeat;
   background-position: left;
-  }
+}
 
 #futabalily {
   border-radius: 50%;
@@ -62,7 +62,8 @@ body {
 .twithover:hover{
   background-color: white;
   color: dodgerblue !important;
-  border-radius: 20%;
+  border-radius: 30px;
+  transition: .5s all cubic-bezier(.39,.58,.57,1);
 }
 
 .contactbox{
@@ -75,13 +76,15 @@ body {
 .spothover:hover{
   background-color: white;
   color: green !important;
-  border-radius: 20%;
+  border-radius: 30px;
+  transition: .5s all cubic-bezier(.39,.58,.57,1);
 }
 
 .CTA:hover {
   background-color: white;
   color: black !important;
-  border-radius: 20%;
+  border-radius: 30px;
+  transition: .5s all cubic-bezier(.39,.58,.57,1);
 }
 
 .supporting {
