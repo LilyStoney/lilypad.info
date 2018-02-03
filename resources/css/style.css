@@ -1,4 +1,5 @@
 body {
+  font-family: 'Ubuntu', sans-serif !important;
   background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
   }
 
@@ -120,7 +121,7 @@ footer {
   margin-bottom: 30px;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 1024px) {
   .mypic {
     text-align: auto;
     margin-bottom: 0px;
