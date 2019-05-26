@@ -1,0 +1,252 @@
+body {
+  font-family: 'Ubuntu';
+  background-color: rgb(30, 30, 31) !important;
+
+  h2 {
+    font-family: 'Ubuntu';
+  }
+}
+
+footer {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+
+  a,
+  a:hover {
+    color: white;
+  }
+}
+
+nav {
+  text-shadow: 0 2px 10px black;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.nameplate {
+  li {
+    font-size: 1.3rem;
+    font-family: 'Yellowtail';
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  font-weight: bold;
+
+  li {
+    &:first-child {
+      // border-top-left-radius: 200px;
+      // border-bottom-left-radius: 200px;
+      padding-left: 10px;
+    }
+
+    &:last-child {
+      // border-top-right-radius: 200px;
+      // border-bottom-right-radius: 200px;
+      padding-right: 10px;
+      margin-right: 20px;
+    }
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: black;
+      opacity: 0.6;
+    }
+  }
+
+}
+
+.title {
+  color: white;
+  font-family: 'Yellowtail';
+  text-shadow: 0 2px 10px black;
+}
+
+.sub-title {
+  color: white;
+  font-family: 'Yellowtail';
+  text-shadow: 0 2px 10px black;
+}
+
+.image {
+  margin-top: 30px;
+  padding: 7.5px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px black;
+}
+
+#header-information{
+  padding-top: 35vh;
+  text-align: center;
+  background: image-url('woman_dev.jpeg');
+  background-position: center;
+  display: flex;
+  padding-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#site-main {
+  color: white;
+}
+
+.dev-icons{
+  color: white;
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  background-color: rgba(28, 27, 27, 0.575);
+  font-size: 40px;
+
+  .icon {
+    padding-left: 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+#projects {
+  background: linear-gradient(90deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%) !important;
+}
+
+#contact_me {
+  background: linear-gradient(90deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%) !important;
+}
+
+.about-me-box {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+  font-size: 17.6px;
+  text-align: left;
+
+  @media (max-width: 1023px) {
+    padding: {
+      left: 10vw;
+      right: 10vw;
+    }
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-me-picture {
+    @media (max-width: 1023px) {
+      width: 40%;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 900px) {
+      width: 50%;
+    }
+  }
+}
+
+.left-project-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  @media (max-width: 1023px) {
+    margin-top: -30px;
+  }
+
+  .project-title-image {
+    width: 80%;
+    padding-right: 50px;
+
+    @media (max-width: 1023px) {
+      padding-right: 0;
+      width: 40%;
+    }
+
+    @media (max-width: 900px) {
+      width: 60%;
+    }
+  }
+
+  .project-main-image {
+    padding-right: 25px;
+
+    @media (max-width: 1023px) {
+      padding-top: 30px;
+      padding-right: 0;
+      width: 60%;
+    }
+  }
+
+  .project-text {
+    padding-top: 20px;
+    padding-right: 50px;
+
+    @media (max-width: 1023px) {
+      padding: 0 10vw;
+    }
+  }
+}
+
+.right-project-box {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  .project-title-image {
+    width: 50%;
+    padding-left: 50px;
+
+    @media (max-width: 1023px) {
+      padding-left: 0;
+      padding-bottom: 30px;
+      width: 20%;
+    }
+
+    @media (max-width: 900px) {
+      width: 30%;
+    }
+  }
+
+  .project-main-image {
+    padding-left: 25px;
+
+    @media (max-width: 1023px) {
+      padding-left: 0;
+      padding-top: 30px;
+      width: 60%;
+    }
+  }
+
+  .project-text {
+    padding-top: 20px;
+    padding-left: 50px;
+
+    @media (max-width: 1023px) {
+      padding: 0 10vw;
+    }
+  }
+}
+
+#contact_me {
+  padding-top: 40px;
+}
+
+.form {
+  margin-bottom: 40px;
+
+  label {
+    color: white;
+  }
+}

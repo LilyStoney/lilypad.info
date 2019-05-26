@@ -1,0 +1,67 @@
+<div id="projects">
+  <div class="row left-project-box">
+    <div class="column small-12 medium-12 large-5">
+      <%= image_tag('skill-check.png', class: 'project-title-image') %>
+      <div class="project-text">
+        <p>
+          SkillCheck is a personal project that works in conjunction with the MOBA
+          (Multiplayer Online Battle Arena) video game, League of Legends.
+        </p>
+        <p><em>SkillCheck allows you to organise, track and plan your champion mastery score.</em></p>
+        <p>
+          It works with Riot Games APIs to allow a user to query against usernames to see
+          their own, or fellow summoners', mastery score across Leagues 100+ champions.
+        </p>
+        <p>
+          Players can sign up for their very own account, verify their League of Legends account
+          using the third party verification API, and create focus lists, friends lists and more.
+        </p>
+
+        <%= link_to('Coming soon', '#', style: 'margin-top: 10px;', class: 'button disabled') %>
+      </div>
+    </div>
+    <div class="column large-7">
+      <%= image_tag('scinmac.png', class: 'project-main-image') %>
+    </div>
+  </div>
+</div>
+<div>
+  <div>
+    <div class="row right-project-box">
+      <div class="column small-12 medium-12 large-7 show-for-large">
+        <%= image_tag('sshinmac.png', class: 'project-main-image') %>
+      </div>
+
+      <div class="column large-5">
+        <%= image_tag('shh.png', class: 'project-title-image') %>
+
+        <div class="project-text">
+          <p>
+            One of my professional projects included developing and designing the new website for
+            Seuxal Health Hertfordshire. This involved setting it up on AWS, and implementing
+            Camaleon CMS to allow service staff to control it's content.
+          </p>
+          <p>
+            It works with NHS Choices API to capture and display the most up-to-date information on
+            Sexually Transmitted Infections and Contraception options.
+          </p>
+          <p>
+            I also integrated Mapbox to allow patients to use geocoding to pinpoint their nearest
+            Sexual Health Hertfordshire service.
+          </p>
+
+          <%= link_to(
+                'Take a look',
+                'https://sexualhealthhertfordshire.clch.nhs.uk',
+                target: "_blank",
+                class: 'button'
+              ) %>
+        </div>
+      </div>
+
+      <div class="column small-12 medium-12 large-7 hide-for-large">
+        <%= image_tag('sshinmac.png', class: 'project-main-image') %>
+      </div>
+    </div>
+  </div>
+</div>
