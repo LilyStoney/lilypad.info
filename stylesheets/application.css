@@ -180,7 +180,3 @@ nav {
   margin-bottom: 40px; }
   .form label {
     color: white; }
-
-@media (max-width: 450px) {
-  .hide-sm {
-    display: none; } }
