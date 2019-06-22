@@ -250,3 +250,9 @@ nav {
     color: white;
   }
 }
+
+.hide-sm {
+  @media (max-width: 450px) {
+    display: none;
+  }
+}
